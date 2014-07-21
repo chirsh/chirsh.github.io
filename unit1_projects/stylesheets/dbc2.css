@@ -1,41 +1,47 @@
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background-color: #C0C0C0;
+	text-align: center;
 } 
 
-aside {
+#sidebar {
 	
-	border-style: solid;
-	border-radius: 6px;
-	margin: 10px 5px;
-	padding: 2px 3px;
-    float: right;
-    width: 250px;
+   	border-style: solid;
+    position: relative;
+    height: 250px;
+	width: 19%;
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 1px;
 }
 
-article {
-	
-	border-style: solid;
-	border-radius: 6px;
-	margin: 10px 5px;
+#article {
+
+
+	height: px;
+	width: 77%;
 	float: left;
-    width: 500px;
-    padding: 1em;
+
+	border-style: solid;
 }
 
-header {
-	border-style: solid;
+#header {
+	
 	border-radius: 6px;
 	margin: 10px 5px;
 	padding: 2px 3px;
+	background-color: #4C4C4C;
+	position: static;
 }
 
-footer {
-	border-style: solid;
-	border-radius: 6px;
-	margin: 10px 5px;
-	padding: 2px 3px;
-    clear: left;
+#footer {
+	
+
+    height: 25px;
+	clear: both;
+	margin-top: 2.5px;
+	margin-bottom:1.5px;
+	position: relative;
 }
 
 .fire {
@@ -43,11 +49,10 @@ footer {
 }
 
 #caption {
-	position: absolute;
-    left: 100px;
-    top: 150px;
+	position: relative;
+    
 }
 
 a:hover {
-    color: #springgreen;
+    color: orange;
 }
