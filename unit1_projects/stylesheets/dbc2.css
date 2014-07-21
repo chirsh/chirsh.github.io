@@ -1,0 +1,53 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #C0C0C0;
+} 
+
+aside {
+	
+	border-style: solid;
+	border-radius: 6px;
+	margin: 10px 5px;
+	padding: 2px 3px;
+    float: right;
+    width: 250px;
+}
+
+article {
+	
+	border-style: solid;
+	border-radius: 6px;
+	margin: 10px 5px;
+	float: left;
+    width: 500px;
+    padding: 1em;
+}
+
+header {
+	border-style: solid;
+	border-radius: 6px;
+	margin: 10px 5px;
+	padding: 2px 3px;
+}
+
+footer {
+	border-style: solid;
+	border-radius: 6px;
+	margin: 10px 5px;
+	padding: 2px 3px;
+    clear: left;
+}
+
+.fire {
+	color: red;
+}
+
+#caption {
+	position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+a:hover {
+    color: #springgreen;
+}
