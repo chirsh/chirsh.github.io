@@ -82,6 +82,14 @@ body {
 	float: none;
 }
 
+.code {
+	font-family: Courier;
+	border: 0.11em solid grey;
+	margin: auto;
+	width: 50%;
+	background: LightGrey;
+	margin-bottom: 1em;
+}
 
 
 
